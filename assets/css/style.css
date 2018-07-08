@@ -180,7 +180,6 @@ input[type=submit]:hover{
    
     #title {
       width:100%;
-
       padding:0;
       text-align: center;
       float:none;
@@ -203,12 +202,28 @@ input[type=submit]:hover{
     header{
         width: 100%;
     }
+    /*Relevant for About Me Page*/
+
     .biophoto{
         float: none;
-
         width: 100%;
     }
+    /*Relevant for Portfolio Page*/
+    .portfolioimage{
+        display: block;
+    }
+    
+    .portfolioimagetext{
+        width:100%;
+    
+    }
 
+    /*Relevant for Contact Page*/
+
+    input{
+        width:100%;
+        border:1px;
+    }
   
   }
   
