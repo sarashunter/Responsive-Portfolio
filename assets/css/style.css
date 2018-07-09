@@ -228,3 +228,28 @@ input[type=submit]:hover{
       }
   }
   
+
+  /*  CSS Animation Bonus
+  
+  I know it's ugly and unprofessional lol.
+  */
+
+  #title {
+    -webkit-animation-name: titleAnimation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: titleAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes titleAnimation {
+    from {background-color: #4aaaa5;}
+    to {background-color: #ffffff;;}
+}
+
+/* Standard syntax */
+@keyframes titleAnimation {
+    from {background-color: #4aaaa5;}
+    to {background-color: #ffffff;}
+}
